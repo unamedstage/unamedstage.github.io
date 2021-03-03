@@ -23,13 +23,12 @@
     <published>2021-03-03T13:41:34.000Z</published>
     <updated>2021-03-03T06:32:18.154Z</updated>
     
+    <content type="html"><![CDATA[<p>前段时间把自己的社交媒体帐号全杀了以后，我发现自己面临着想发东西不知道往哪儿发的问题。这时候一个朋友和我提到他的博客的事情，再加上几天前看到一个近九十高龄的大佬还在非常自由地写<a href="https://robertpaulwolff.blogspot.com/">自己的博客</a>，<del>使我的内心受到了震撼</del>于是打算重新把博客建起来。总之建好了之后就是这样的。</p><p>在一年之前我曾经试过用<a href="https://pages.github.com/">Github Pages</a>建博客，但是最后失败了（指建完站以后把文章咕了）。一方面是因为那时候我有社交媒体帐号作为后盾：当时想着先把文章发到知乎，如果知乎不给发再发在自己的平台上。于是我就没有对博客上过心；不过现在，我一无所有了。</p><p>另一方面是我的确也和一年前的我不一样了，换句话说就是我变强了。<del>其中包括建站速度变快了</del></p><p>一年前我用的工具是<a href="https://gridea.dev/">Gridea</a>，一个挺不错的GUI客户端；现在我改用<a href="https://hexo.io/">Hexo</a>了。Hexo的交互是CLI的，在换了主力系统之后我逐渐习惯了CLI的方式。两者并没有高下之分，纯粹是个人习惯问题。我选了个<a href="https://github.com/lotabout/hexo-theme-noise">简单的主题</a>，不加装饰。装饰并不能表达我，我所写的东西才能。</p><p>博客和社交媒体不同的地方在于：它归我所有。域名是我买的，仓库是我建的，我可以决定我在其中放什么东西，不受其他人的干涉。我所创作的一切都属于我。我写它，不是为了给别人看之类的网络社交目的，而是为了我自己。</p><blockquote><p>Ich singe, wie der Vogel singt,<br>Der in den Zweigen wohnet;<br>Das Lied, das aus der Kehle dringt,<br>Ist Lohn, der reichlich lohnet.</p><footer><strong>Johann Wolfgang Goethe</strong><cite>Der Sänger</cite></footer></blockquote>]]></content>
+    
     
       
       
-        
-        
     <summary type="html"></summary>
-        
       
     
     
