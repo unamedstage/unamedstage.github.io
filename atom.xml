@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Nothing</title>
   
-  <subtitle>I am owner of my creation.</subtitle>
+  <subtitle>I am Owner of My Creation</subtitle>
   <link href="https://blog.nothingto.me/atom.xml" rel="self"/>
   
   <link href="https://blog.nothingto.me/"/>
