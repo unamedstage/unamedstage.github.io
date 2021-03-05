@@ -709,11 +709,13 @@ details[open] > figure:last-child {
 }
 .next-nav {
   text-align: left;
+  display: inline;
   width: 50%;
   left: 0;
 }
 .prev-nav {
   text-align: right;
+  display: inline;
   width: 50%;
   right: 0;
 }
