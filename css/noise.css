@@ -704,17 +704,15 @@ details[open] > figure:last-child {
   }
 }
 .post-main.misc {
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
 }
 .next-nav {
-  display: inline-block;
   text-align: left;
   width: 50%;
   left: 0;
 }
 .prev-nav {
-  display: inline-block;
   text-align: right;
   width: 50%;
   right: 0;
