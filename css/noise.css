@@ -708,13 +708,13 @@ details[open] > figure:last-child {
   justify-content: space-between;
 }
 .prev-nav {
-  text-align: right;
+  text-align: left;
   display: inline;
   width: 50%;
   left: 0;
 }
 .next-nav {
-  text-align: left;
+  text-align: right;
   display: inline;
   width: 50%;
   right: 0;
