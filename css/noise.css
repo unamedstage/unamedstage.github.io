@@ -703,3 +703,17 @@ details[open] > figure:last-child {
     height: 26px;
   }
 }
+.post-main.misc {
+  display: flex;
+  justify-content: space-between;
+}
+.next-nav {
+  text-align: left;
+  width: 50%;
+  left: 0;
+}
+.prev-nav {
+  text-align: right;
+  width: 50%;
+  right: 0;
+}
