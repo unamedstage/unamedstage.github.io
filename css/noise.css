@@ -707,13 +707,13 @@ details[open] > figure:last-child {
   display: flex;
   justify-content: space-between;
 }
-.next-nav {
+.prev-nav {
   text-align: left;
   display: inline;
   width: 50%;
   left: 0;
 }
-.prev-nav {
+.next-nav {
   text-align: right;
   display: inline;
   width: 50%;
