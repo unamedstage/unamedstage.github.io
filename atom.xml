@@ -6,7 +6,7 @@
   <link href="https://blog.nothingto.me/atom.xml" rel="self"/>
   
   <link href="https://blog.nothingto.me/"/>
-  <updated>2021-03-05T05:46:59.480Z</updated>
+  <updated>2021-03-05T05:51:47.424Z</updated>
   <id>https://blog.nothingto.me/</id>
   
   <author>
@@ -21,11 +21,12 @@
     <link href="https://blog.nothingto.me/a-classical-probability-problem-solving-with-brute-force"/>
     <id>https://blog.nothingto.me/a-classical-probability-problem-solving-with-brute-force</id>
     <published>2021-03-04T20:55:39.000Z</published>
-    <updated>2021-03-05T05:46:59.480Z</updated>
+    <updated>2021-03-05T05:51:47.424Z</updated>
     
     
       
       
+        
         
         
     <summary type="html">&lt;p&gt;之前的数学老师遇到我不会做的古典概率题，有时候会告诉我：&lt;del&gt;那你就去穷举啊&lt;/del&gt;实在不会做就试着穷举看看，如果情况不多就还能做出来。不过穷举也和思路有关，因为穷举的时候首先要知道，列出的这些情况是否是&lt;strong&gt;等概率&lt;/strong&gt;的情况。比如下面这道题，是一个朋友问我的；这里有一个正确答案和一个错误答案。&lt;/p&gt;</summary>
@@ -55,6 +56,7 @@
     
       
       
+        
         
         
     <summary type="html">&lt;p&gt;前段时间把自己的社交媒体帐号全杀了以后，我发现自己面临着想发东西不知道往哪儿发的问题。这时候一个朋友和我提到他的博客的事情，再加上几天前看到一个近九十高龄的大佬还在非常自由地写&lt;a href=&quot;https://robertpaulwolff.blogspot.com/&quot;&gt;自己的博客&lt;/a&gt;，&lt;del&gt;使我的内心受到了震撼&lt;/del&gt;于是打算重新把博客建起来。总之建好了之后就是这样的。&lt;/p&gt;</summary>
