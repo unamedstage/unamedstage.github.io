@@ -156,7 +156,7 @@ h4 .header-anchor::after {
   .post-main,
   .post-entry,
   .page-navigator {
-    padding: 25px 5px 25px 5px;
+    padding: 25px 25px 25px 25px;
   }
 }
 .post-main {
