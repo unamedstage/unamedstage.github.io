@@ -712,10 +712,19 @@ details[open] > figure:last-child {
   display: inline;
   width: 50%;
   left: 0;
+  display: flex;
 }
 .next-nav {
   text-align: right;
   display: inline;
   width: 50%;
   right: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-left {
+  margin-right: 5px;
+}
+.nav-right {
+  margin-left: 5px;
 }
