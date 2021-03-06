@@ -727,6 +727,6 @@ details[open] > figure:last-child {
   float: left;
 }
 .nav-right {
-  margin-left: px;
+  margin-left: 5px;
   float: right;
 }
