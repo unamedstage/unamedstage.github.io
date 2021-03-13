@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+
+<url>
+ <loc>https://blog.nothingto.me/tags/probability</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-03-12</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://blog.nothingto.me/tags/meta</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-03-12</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://blog.nothingto.me/atom.xml</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-03-12</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://blog.nothingto.me/hello-world</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-03-12</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://blog.nothingto.me/tags/problem-solving</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-03-12</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://blog.nothingto.me/tags/number-theory</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-03-12</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://blog.nothingto.me/</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-03-12</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://blog.nothingto.me/lisp-variable-procedure-definition</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-03-12</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://blog.nothingto.me/tags/Python</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-03-12</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://blog.nothingto.me/archives</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-03-12</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://blog.nothingto.me/a-classical-probability-problem-solving-with-brute-force</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-03-12</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://blog.nothingto.me/tags/Lisp</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-03-12</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://blog.nothingto.me/tags/math</loc>
+ <priority>0.3</priority>
+ <lastmod>2021-03-12</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+</urlset>
