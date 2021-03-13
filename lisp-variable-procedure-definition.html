@@ -49,7 +49,7 @@
     &#125;
 &#125;
 </code></pre>
-<p>在上面的函数中，一个很重要的部分就是使用了变量 <code>r</code> 和 <code>x</code> 来保存递归返回的结果 。</p>
+<p>在上面的函数中，一个很重要的部分就是使用了变量 <code>r</code> 和 <code>x</code> 来保存递归返回的结果 。如果不保存，就需要多次调用函数。</p>
 <p>如果在 Scheme 中，不使用中间变量而只考虑代换求值，会得到下面的树：</p>
 <p><img src="/lisp-variable-procedure-definition/expmod-bad.dot.svg" alt=""> </p>
 <p>上图的过程在所有需要的地方都重新递归调用了所需的过程，这导致了在指数 <code>exp</code> 为偶数的分支上，有一棵子树 <code>remainder</code> 被反复求值。图中在条件判断过程中求值的 <code>remainder</code> 子树被标为蓝色，在结果计算过程中求值的 <code>remainder</code> 子树被标为红色。</p>
