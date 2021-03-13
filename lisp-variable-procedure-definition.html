@@ -33,7 +33,7 @@
     if (exp == 0) &#123;
         return 1;
     &#125; else if (exp % 2 == 0) &#123;
-        int r = expmod(base, exp / 2, m);
+        int r = expmod (base, exp / 2, m);
         int x = (r * r) % m;
         if (r == 1 || r == m - 1) &#123;
             return x;
@@ -45,7 +45,7 @@
             &#125;
         &#125;
     &#125; else &#123;
-        return (expmod(base, exp - 1, m) * base) % m;
+        return (expmod (base, exp - 1, m) * base) % m;
     &#125;
 &#125;
 </code></pre>
