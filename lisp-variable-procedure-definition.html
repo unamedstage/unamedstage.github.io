@@ -59,7 +59,7 @@
 <p>通过这种方式，改写后的 <code>expmod</code> 是这样的：</p>
 <p><img src="/lisp-variable-procedure-definition/expmod-good.dot.svg" alt=""> </p>
 <p>在这个 <code>expmod</code> 中，由于调用了 <code>get-result</code> ，使得 <code>remainder</code> 子树的求值次数从 7 次变回了 1 次。这就是「过程定义」的解法。</p>
-<p>这样的方法还可以继续使用，比如在 <code>get-result</code> 中求值了两次的<code>remainder</code> 和 <code>square</code> 过程，可以通过再重新定义过程 <code>test</code>（测试平方是否与1同余）来优化。</p>
+<p>这样的方法还可以继续使用，比如在 <code>get-result</code> 中求值了两次的<code>remainder</code> 和 <code>square</code> 过程，可以通过再重新定义过程 <code>test</code>（测试平方是否与 1 同余）来优化。</p>
 <p><img src="/lisp-variable-procedure-definition/get-result-better.dot.svg" alt=""> </p>
 <h2 id="附录"><a href="#附录" class="headerlink" title="附录"></a>附录</h2><p>正经解法的 Scheme 代码（使用我流括号缩进）：</p>
 <pre><code class="lang-Scheme">(define (expmod base exp m)
