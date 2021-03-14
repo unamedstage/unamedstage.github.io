@@ -54,7 +54,7 @@
 <p><img src="/lisp-variable-procedure-definition/expmod-bad.dot.svg" alt=""> </p>
 <p>上图的过程在所有需要的地方都重新递归调用了所需的过程，这导致了在指数 <code>exp</code> 为偶数的分支上，有一棵子树 <code>remainder</code> 被反复求值。图中在条件判断过程中求值的 <code>remainder</code> 子树被标为蓝色，在结果计算过程中求值的 <code>remainder</code> 子树被标为红色。</p>
 <p><code>remainder</code> 子树的反复求值增加了递归函数的时间复杂度：一个函数要调用自身 7 次，这是不可接受的。在 C 中这个函数只被调用了一次，在此之后用变量存储它的返回值以便继续使用。但是如果不使用变量呢？</p>
-<h2 id="过程定义"><a href="#过程定义" class="headerlink" title="过程定义"></a>过程定义</h2><p>Scheme 给出的解法是，在所有重复的 <code>remainder</code> 子树的公共祖先上，将它的后代重新定义为过程；这个新定义的过程作为原来的 <code>expmod</code> 的参数，而递归调用的 <code>expmod</code> 作为这个新定义的过程的参数。例如，将公共祖先 <code>(even? exp)</code> 结点的下方的分支定义为过程 <code>get-result</code>（这个过程可以理解为当 <code>exp</code> 为偶数时，取得所返回的结果），而 <code>remainder</code> 子数的值作为传给 <code>get-result</code> 过程的参数 <code>r</code>：</p>
+<h2 id="过程定义"><a href="#过程定义" class="headerlink" title="过程定义"></a>过程定义</h2><p>Scheme 给出的解法是，在所有重复的 <code>remainder</code> 子树的公共祖先上，将它的后代重新定义为过程；这个新定义的过程作为原来的 <code>expmod</code> 的参数，而递归调用的 <code>expmod</code> 作为这个新定义的过程的参数。例如，将公共祖先 <code>(even? exp)</code> 结点的下方的分支定义为过程 <code>get-result</code>（这个过程可以理解为当 <code>exp</code> 为偶数时，取得所返回的结果），而 <code>remainder</code> 子树的值作为传给 <code>get-result</code> 过程的参数 <code>r</code>：</p>
 <p><img src="/lisp-variable-procedure-definition/get-result.dot.svg" alt=""> </p>
 <p>通过这种方式，改写后的 <code>expmod</code> 是这样的：</p>
 <p><img src="/lisp-variable-procedure-definition/expmod-good.dot.svg" alt=""> </p>
