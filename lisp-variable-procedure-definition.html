@@ -26,7 +26,7 @@
 </code></pre>
 <p>这个过程在 <code>exp</code> 为奇数时将结果乘以 <code>base</code>， <code>exp</code> 为偶数时对结果求平方；求平方的方法使得它计算同余幂只需要 <script type="math/tex">\log m</script> 的步骤。</p>
 <p>修改这个过程，使其在求平方的步骤中检查是否遇到了「 <script type="math/tex">1 \bmod n</script> 的非平凡平方根」，即是否</p>
-<script type="math/tex; mode=display">\exists x (x \neq 1 \land x \neq n - 1 \land x ^ {2} \equiv 1 \pmod m)</script><p>若上式对某一 <script type="math/tex">x</script> 成立，那么 <script type="math/tex">m</script> 就不是素数；若在任一时刻找到了这样的平方根，过程应当返回 0 ，否则返回 <script type="math/tex">base^{exp} \bmod m</script> 。</p>
+<script type="math/tex; mode=display">\exists x (x \neq 1 \land x \neq n - 1 \land x ^ {2} \equiv 1 \pmod m)</script><p>若上式对某一 <script type="math/tex">x</script> 成立，那么 <script type="math/tex">m</script> 就不是素数；若在任一时刻找到了这样的平方根，过程应当返回 0 ，否则返回 <script type="math/tex">base^{exp} \bmod m</script> ．</p>
 <h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><p>很容易就能写出满足上面的条件的、递归的 C 语言函数：</p>
 <pre><code class="lang-C">int expmod (int base, int exp, int m)
 &#123;

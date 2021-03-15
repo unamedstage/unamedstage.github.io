@@ -2,21 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.nothingto.me/a-classical-probability-problem-solving-with-brute-force</loc>
+    
+    <lastmod>2021-03-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.nothingto.me/lisp-variable-procedure-definition</loc>
     
-    <lastmod>2021-03-14</lastmod>
+    <lastmod>2021-03-15</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.nothingto.me/google94626c72c449da1d</loc>
-    
-    <lastmod>2021-03-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.nothingto.me/a-classical-probability-problem-solving-with-brute-force</loc>
     
     <lastmod>2021-03-06</lastmod>
     
@@ -39,7 +39,7 @@
 
   <url>
     <loc>https://blog.nothingto.me/</loc>
-    <lastmod>2021-03-14</lastmod>
+    <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -47,49 +47,49 @@
   
   <url>
     <loc>https://blog.nothingto.me/tags/meta/</loc>
-    <lastmod>2021-03-14</lastmod>
+    <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.nothingto.me/tags/problem-solving/</loc>
-    <lastmod>2021-03-14</lastmod>
+    <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.nothingto.me/tags/Lisp/</loc>
-    <lastmod>2021-03-14</lastmod>
+    <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.nothingto.me/tags/math/</loc>
-    <lastmod>2021-03-14</lastmod>
+    <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.nothingto.me/tags/number-theory/</loc>
-    <lastmod>2021-03-14</lastmod>
+    <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.nothingto.me/tags/probability/</loc>
-    <lastmod>2021-03-14</lastmod>
+    <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.nothingto.me/tags/Python/</loc>
-    <lastmod>2021-03-14</lastmod>
+    <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

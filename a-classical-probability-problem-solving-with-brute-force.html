@@ -16,12 +16,12 @@
 <li>选到的是和这根草不同组的草。不同组的草有四根，故这种情况出现的概率占 <script type="math/tex">\frac{4}{5}</script>；将上面两根草相接后，产生了一组四根草和一组两根草。在剩下的四根草中再选一根草。有两种情况：<ol>
 <li>选到的是四根草一组中的草。这组草有两个头，所以概率占 <script type="math/tex">\frac{1}{2}</script>；在剩下的三根草中选取一根和这根草相连，也有两种情况：<ol>
 <li>和两根草组的草相连，满足了题目条件；概率占 <script type="math/tex">\frac{2}{3}</script>；</li>
-<li>和本组的草相连，不能满足题目条件；概率占 <script type="math/tex">\frac{1}{3}</script>。</li>
+<li>和本组的草相连，不能满足题目条件；概率占 <script type="math/tex">\frac{1}{3}</script>．</li>
 </ol>
 </li>
 <li>选到的是两根草一组中的草。这组草有两个头，所以概率占 <script type="math/tex">\frac{1}{2}</script>；在剩下的草中选取一根和这根草相连，也有两种情况：<ol>
 <li>和四根草组的草相连，满足了题目条件；概率占 <script type="math/tex">\frac{2}{3}</script>；</li>
-<li>和本组的草相连，不能满足题目条件；概率占 <script type="math/tex">\frac{1}{3}</script>。</li>
+<li>和本组的草相连，不能满足题目条件；概率占 <script type="math/tex">\frac{1}{3}</script>．</li>
 </ol>
 </li>
 </ol>
@@ -31,14 +31,14 @@
 </li>
 <li>最终满足条件的分支的总概率为：<script type="math/tex; mode=display">\frac{4}{5} \times (\frac{1}{2} \times \frac{2}{3} + \frac{1}{2} \times \frac{2}{3}) = \frac{8}{15}</script></li>
 </ul>
-<h2 id="另一个思路"><a href="#另一个思路" class="headerlink" title="另一个思路"></a>另一个思路</h2><p>在和那位朋友对了答案之后，我确定了正确结果就是 <script type="math/tex">\frac{8}{15}</script>。不过那位朋友告诉我，他的一位朋友认为答案是 <script type="math/tex">\frac{1}{3}</script>，理由是这样的：</p>
+<h2 id="另一个思路"><a href="#另一个思路" class="headerlink" title="另一个思路"></a>另一个思路</h2><p>在和那位朋友对了答案之后，我确定了正确结果就是 <script type="math/tex">\frac{8}{15}</script>．不过那位朋友告诉我，他的一位朋友认为答案是 <script type="math/tex">\frac{1}{3}</script>，理由是这样的：</p>
 <p>他用了画图的方法来分析这些情况。画图能得到的结果有三种：</p>
 <ol>
 <li>六根草连成一个大环，即满足题目要求的情况；</li>
 <li>四根草连成一个环，两根草连成一个环；</li>
 <li>三组两根草连成三个小环。</li>
 </ol>
-<p>所以满足条件的概率为 <script type="math/tex">\frac{1}{3}</script>。</p>
+<p>所以满足条件的概率为 <script type="math/tex">\frac{1}{3}</script>．</p>
 <p>在我和我的朋友质疑的时候他给出理由：从第一组选一根草开始连，只要连的是同一组的两根，就是等价的结果。而我们继续质疑这样等价会造成结果不等可能后，他说：<del>那你就去穷举啊</del>他所穷举出的结果只有上面的那三种可能。</p>
 <p>我认为这是不适合的穷举造成的错误；他使用画图来穷尽所有的结果，但是一方面最终视觉上的结果不一定是<strong>等可能</strong>的，另一方面画图为这题的概率选择增添了额外的信息量：在连这几根草的尾部时，这个人并不知道头部是如何连接的——也就是说他并不知道哪几根草在同一组；但这一信息在图上反映了出来。于是我决定<del>让他看看什么是真正的穷举</del>把这道题的结果用 Python 穷举一下，其中包括模拟错误的思路，和正确的思路。</p>
 <h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>我用一个<code>list</code>来表示一个结果，用相同的数字表示头在同一组的草；在<code>list</code>中相邻表示两根草尾相连。</p>
@@ -118,7 +118,7 @@ print(&#39;prob = &#39; + str(hit) + &#39;/&#39; + str(total))
 </code></pre>
 <p>运行后，最后一行的输出为：</p>
 <pre><code>prob = 384/720
-</code></pre><p>即正确结果 <script type="math/tex">\frac{8}{15}</script>。</p>
+</code></pre><p>即正确结果 <script type="math/tex">\frac{8}{15}</script>．</p>
 <h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>写完才想起来 Python 是有直接列举排列组合的函数的，就是 <code>itertool.combinations()</code> 和 <code>itertool.permutations()</code>；而且我匆忙之中代码写得很烂。<del>反正都穷举了，做对就行了</del></p>
 </div></div><div class="post-main misc"><div class="prev-nav"><div class="nav-left"><</div><div class="link-left"> <a href="/lisp-variable-procedure-definition">Lisp与变量与过程定义</a></div></div><div class="next-nav"><link-right><a href="/hello-world">Hello World</a></link-right><div class="nav-right">></div></div><script src="/js/highlight.pack.js"></script>
 <script src="/js/highlight.line-number.js"></script>
